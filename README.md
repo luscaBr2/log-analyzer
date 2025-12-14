@@ -1,12 +1,12 @@
-# 🐍 Log Analyzer em Python (Relatório de Eficiência de API)
+# Log Analyzer em Python (Relatório de Eficiência de API)
 
-## 🌟 Visão Geral
+## Visão Geral
 
 Este projeto é um _script_ de automação em **Python** projetado para processar logs de servidor e gerar um relatório conciso sobre o desempenho e a confiabilidade de _endpoints_ de API.
 
 O objetivo é transformar dados brutos de log em métricas acionáveis, permitindo a **identificação rápida de gargalos de performance** (latência alta) e a **taxa de erros** por rota. Esta ferramenta simula o trabalho de engenharia de _observability_ e otimização de sistemas, uma prática essencial no desenvolvimento Back-end.
 
-## 🎯 Por que este projeto é relevante
+## Por que este projeto é relevante
 
 O projeto demonstra a capacidade de ir além do desenvolvimento básico, focando em métricas de sistema:
 
@@ -14,12 +14,12 @@ O projeto demonstra a capacidade de ir além do desenvolvimento básico, focando
 -   **Scripts de Automação:** Confirma a proficiência na criação de ferramentas de automação e análise em **Python**, linguagem citada como colaborativa na Pipefy.
 -   **Identificação de Gargalos:** Replica a função de análise exploratória de dados para identificar ineficiências.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 -   **Python:** Linguagem principal para processamento e análise.
 -   **Módulos Nativos:** `re` (Expressões Regulares) para parsear os logs e `collections` (`defaultdict`) para agregação eficiente de dados.
 
-## 🧠 Design e Tradeoffs (Compensações de Design)
+## Design e Tradeoffs (Compensações de Design)
 
 No design desta ferramenta, a principal compensação (_tradeoff_) foi entre **Velocidade de Processamento (Eficiência)** e **Complexidade de Ferramentas (Simplicidade)**, demonstrando a capacidade de fazer escolhas bem fundamentadas:
 
