@@ -11,7 +11,7 @@ O objetivo é transformar dados brutos de log em métricas acionáveis, permitin
 O projeto demonstra a capacidade de ir além do desenvolvimento básico, focando em métricas de sistema:
 
 -   **Análise de Desempenho:** Prova a habilidade de usar dados para encontrar e diagnosticar problemas de _performance_ e _escalabilidade_.
--   **Scripts de Automação:** Confirma a proficiência na criação de ferramentas de automação e análise em **Python**, linguagem citada como colaborativa na Pipefy.
+-   **Scripts de Automação:** Confirma a proficiência na criação de ferramentas de automação e análise em **Python**.
 -   **Identificação de Gargalos:** Replica a função de análise exploratória de dados para identificar ineficiências.
 
 ## Tecnologias Utilizadas
