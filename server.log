@@ -1,0 +1,44 @@
+2025-12-13 10:00:01 GET /api/v1/tasks 200 55ms
+2025-12-13 10:00:02 POST /api/v1/users 201 120ms
+2025-12-13 10:00:03 GET /api/v1/tasks 200 48ms
+2025-12-13 10:00:04 GET /api/v1/workflow/123 200 80ms
+2025-12-13 10:00:05 GET /api/v1/tasks 200 62ms
+2025-12-13 10:00:06 GET /api/v1/reports/summary 500 1500ms
+2025-12-13 10:00:07 GET /api/v1/workflow/123 200 75ms
+2025-12-13 10:00:08 GET /api/v1/reports/summary 500 1450ms
+2025-12-13 10:00:09 PUT /api/v1/tasks/456 404 30ms
+2025-12-13 10:00:10 GET /api/v1/tasks 200 59ms
+2025-12-13 10:00:11 GET /api/v1/users 401 25ms
+2025-12-13 10:01:01 GET /api/v1/tasks 200 55ms
+2025-12-13 10:01:02 POST /api/v1/users 201 120ms
+2025-12-13 10:01:03 GET /api/v1/tasks 200 48ms
+2025-12-13 10:01:04 GET /api/v1/workflow/123 200 80ms
+2025-12-13 10:01:05 GET /api/v1/tasks 200 62ms
+2025-12-13 10:01:06 PUT /api/v1/settings 204 150ms
+2025-12-13 10:01:07 GET /api/v1/workflow/123 200 75ms
+2025-12-13 10:01:08 DELETE /api/v1/tasks/999 204 90ms
+2025-12-13 10:01:09 PUT /api/v1/tasks/456 200 30ms
+2025-12-13 10:01:10 GET /api/v1/tasks 200 59ms
+2025-12-13 10:01:11 GET /api/v1/users 200 25ms
+2025-12-13 11:05:01 GET /api/v1/tasks 200 60ms
+2025-12-13 11:05:02 POST /api/v1/users 401 100ms
+2025-12-13 11:05:03 GET /api/v1/tasks 200 55ms
+2025-12-13 11:05:04 GET /api/v1/workflow/999 404 40ms
+2025-12-13 11:05:05 GET /api/v1/tasks 200 70ms
+2025-12-13 11:05:06 PUT /api/v1/settings 500 200ms
+2025-12-13 11:05:07 GET /api/v1/workflow/123 200 85ms
+2025-12-13 11:05:08 POST /api/v1/integration/hook 500 150ms
+2025-12-13 11:05:09 PUT /api/v1/tasks/456 400 35ms
+2025-12-13 11:05:10 GET /api/v1/tasks 200 65ms
+2025-12-13 11:05:11 GET /api/v1/users 401 30ms
+2025-12-13 12:10:01 GET /api/v1/tasks 200 50ms
+2025-12-13 12:10:02 POST /api/v1/users 201 110ms
+2025-12-13 12:10:03 GET /api/v1/tasks 200 45ms
+2025-12-13 12:10:04 GET /api/v1/reports/full 200 2500ms  <- Lento
+2025-12-13 12:10:05 GET /api/v1/tasks 200 65ms
+2025-12-13 12:10:06 PUT /api/v1/settings 204 130ms
+2025-12-13 12:10:07 GET /api/v1/reports/full 200 2400ms  <- Lento
+2025-12-13 12:10:08 DELETE /api/v1/tasks/999 204 80ms
+2025-12-13 12:10:09 POST /api/v1/payments 201 1100ms    <- Lento
+2025-12-13 12:10:10 GET /api/v1/tasks 200 55ms
+2025-12-13 12:10:11 GET /api/v1/users 200 28ms
