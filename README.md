@@ -39,7 +39,7 @@ Certifique-se de ter o Python 3 instalado. Nenhuma biblioteca externa é necess�
 Clone este repositório para sua máquina local:
 
 ```bash
-git clone [https://github.com/luscaBr2/log-analyzer.git](https://github.com/luscaBr2/log-analyzer.git)
+git clone https://github.com/luscaBr2/log-analyzer.git
 ```
 
 Garanta que o arquivo server.log (contendo logs no formato esperado) exista no mesmo diretório.
